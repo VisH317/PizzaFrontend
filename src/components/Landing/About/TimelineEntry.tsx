@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function TimelineEntry() {
     return (
-        <div className="w-full h-1/4 flex flex-row">
+        <div className="w-full h-1/4 flex flex-row z-0">
             <div className="w-1/3 grid grid-cols-2 divide-x-8 divide-rose-700">
                 <div className="">
                 </div>

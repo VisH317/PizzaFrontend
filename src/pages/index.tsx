@@ -5,6 +5,8 @@ import Landing from "~/components/Landing/Landing";
 import Navbar from "~/components/Navbar";
 import About from "~/components/Landing/About";
 import Footer from "~/components/Landing/Footer";
+import Login from "~/components/Landing/Login/Login";
+import Backdrop from "~/components/interface/Backdrop";
 
 const Home: NextPage = () => {
   return (
@@ -25,6 +27,7 @@ const Home: NextPage = () => {
           {/* authentication: simple modal form for signup and login */}
           {/* tile-based dashboard form with top, tile for current orders, previous orders, deals, new order button */}
       </div>
+      <Login>hola</Login>
     </>
   );
 };
